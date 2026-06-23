@@ -12,6 +12,7 @@ pipeline{
 
         stage('Terraform Plan'){
             steps{
+                echo "Terraform Plan"
                 sh 'terraform plan'
             }
         }
