@@ -12,5 +12,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "demo" {
-    bucket = "Priya-jenkins-terraform-bucket-2026"
+    bucket = "priya-jenkins-terraform-bucket-2026"
 }
